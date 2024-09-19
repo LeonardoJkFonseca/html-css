@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.<br> &#x1F389</br></p>
+    <picture>
+        <source media="(max-width: 350px)" srcset="imagens/miranha-100.jpeg" type="image/jpeg">
+         <source media="(max-width:450px)" srcset="imagens/media.jpeg" type="image/jpeg">
+         <img src="imagens/grande.jpeg" alt="imagem flexivel">
+     </picture>
+</body>
+</html>

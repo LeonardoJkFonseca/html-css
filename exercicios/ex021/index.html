@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(139, 0, 69);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: darkred;
+        }
+
+        .especial {
+            background-color: darkgoldenrod;
+        }
+
+.especial::before {
+    content: '⋙';
+}
+
+        .especial::after {
+            content: '⋘';
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.wattpad.com/user/Peganomeuebalanca" target="_blank">Wattpad</a></li>
+        <li><a href="https://www.instagram.com/leoleoxjake/" target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@leoleox07" target="_blank">Youtube</a></li>
+    </ul>
+</body>
+</html>
