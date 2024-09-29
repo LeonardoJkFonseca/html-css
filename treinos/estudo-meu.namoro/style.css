@@ -2,3 +2,191 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+   --cor0: #3C7EB8;
+   --cor1: #466C8E;
+   --cor2: #425463;
+   --cor3: #2F3439;
+   --cor4: #393755;
+
+   --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+   --fonte-destaque: 'Bebas Neue', cursive;
+   --fonte-outro: 'Ribeye marrow', cursive;
+}
+
+
+
+body {
+background-color: var(--cor0);
+font-family: var(--fonte-padrao);
+}
+
+header {
+background-image: -o-linear-gradient(to bottom, var(--cor1), var(--cor3));
+min-height: 150px;
+text-align: center;
+padding-top: 30px;
+}
+
+header > h1 {
+color: var(--cor3);
+font-family: var(--fonte-destaque);
+font-size: 3em;
+font-weight: normal;
+margin-bottom: 20px;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
+}
+
+header > p {
+font-family: var(--fonte-padrao);
+font-size: 1.2em;
+max-width: 500px;
+padding-left: 10px;
+padding-right: 10px;
+margin: auto;
+margin-bottom: 20px;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
+}
+
+div.titulo {
+   background-color: white;
+   padding: 30px;
+   margin: 79px;
+   border-radius: 15px;
+}
+
+nav {
+padding: 10px;
+margin: auto;
+}
+
+nav > a {
+color: rgb(0, 0, 0);
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+transition-duration: 0.5s;
+}
+
+nav > a:hover {
+background-color: var(--cor2);
+color: var(--cor0);
+}
+
+div.historias {
+   background-color: white;
+   margin-left: 79px;
+   margin-bottom: 10px;
+   width: 110px;
+   border-radius: 5px;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+div.datas {
+   background-color: white;
+   margin-left: 79px;
+   margin-bottom: 10px;
+   width: 110px;
+   border-radius: 5px;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+div.musicas {
+   background-color: white;
+   margin-left: 79px;
+   margin-bottom: 10px;
+   width: 110px;
+   border-radius: 5px;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+div.inicio {
+   background-color: white;
+   margin-left: 79px;
+   margin-bottom: 10px;
+   width: 110px;
+   border-radius: 5px;
+   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+}
+
+main {
+min-width: 300px;
+max-width: 1000px;
+margin-left: 295px;
+margin-top: -145px;
+margin-bottom: 20px;
+padding: 20px;
+background-color: white;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+main h1 {
+color: white;
+font-family: var(--fonte-outro);
+width: 335px;
+padding-left: 10px;
+font-weight: normal;
+font-size: 1.8em;
+border-radius: 5px;
+background-color: var(--cor1);
+}
+
+main h2 {
+font-family: var(--fonte-outro);
+padding-left: 10px;
+color: white;
+font-size: 1.3em;
+font-weight: normal;
+border-radius: 5px;
+background-color: var(--cor0);
+}
+
+main p {
+margin: 15px 0px;
+text-align: justify;
+text-indent: 30px;
+font-size: 1em;
+line-height: 2em;
+}
+
+main img {
+width: 100%;
+}
+
+main img {
+max-width: 320px;
+display: block;
+margin: auto;
+}
+
+div.video {
+background-color: var(--cor3);
+padding-bottom: 60%;
+border-radius: 5px;
+position: relative;
+margin: 0px 10px 30px 10px
+}
+
+div.video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+footer {
+background-color: var(--cor3);
+color: white;
+text-align: center;
+font-size: 0.8em;
+padding: 5px;
+margin: -9px;
+}
+
+
