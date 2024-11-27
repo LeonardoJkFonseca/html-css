@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Incption</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Gabriela Menezes</td>
+                <td>Homem-de-Aço</td>
+                <td>Anaconda</td>
+                <td>Emojis</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Leonardo Silva</td>
+                <td>Homem-aranha</td>
+                <td>Tarzan</td>
+                <td>Alladin</td>
+            </tr>
+            <tr>
+                <td>Yohan Moreira</td>
+                <td>A substancia</td>
+                <td>Meninas Malvadas</td>
+                <td>Minha Vida em Marte</td>
+            </tr>
+            <tr>
+                <td>Andrew Garfild</td>
+                <td>Garota do seculo 20</td>
+                <td>A criada</td>
+                <td>Matrix</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
