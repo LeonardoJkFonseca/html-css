@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
          caption {
@@ -26,6 +27,12 @@
             padding: 10px;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(37, 36, 36);
+        }
+
         thead, tfoot {
             background-color: rgb(37, 36, 36);
             color: white;
@@ -33,6 +40,10 @@
 
         td.nun {
             text-align: right;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
         }
     </style>
 </head>
